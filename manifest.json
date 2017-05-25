@@ -1,0 +1,29 @@
+{
+    "name": "Quora NoLogin",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "No login needed to view questions and answers on Quora",
+    "icons": { "128": "icon.png" },
+    "homepage_url": "https://github.com/aldiduzha",
+    "web_accessible_resources": ["logo.png"], 
+    "permissions": [
+        "*://www.quora.com/*"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.quora.com/*"],
+            "exclude_globs": ["*://www.quora.com/search?q=*"],
+            "js": ["quora.js"],
+            "css": ["quora.css"],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "browser_action": {
+    "default_icon": "icon.png"
+  }
+}

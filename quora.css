@@ -1,0 +1,24 @@
+.SiteHeader .header_logo a {
+	background-image: url('http://www.aldiduzha.com/media/quora_logo.png') !important;
+	background-size: 80px 31px !important;
+	width: 100px !important;
+	cursor: ;
+	pointer-events: none;
+    cursor: default;
+}
+
+div.upper_content {
+	display: none !important;
+}
+
+div.action_button {
+	display: none !important;
+}
+
+div.custome_type {
+	display: none !important;
+}
+
+.signup_login_buttons {
+	display: none !important;
+}
