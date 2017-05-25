@@ -5,6 +5,7 @@
 - Removes Ads.
 - Disables Login Button.
 - Adds a special new Quora icon when viewing an answer.
+![screenshot](logo.png)
 
 ## Search Query
 
