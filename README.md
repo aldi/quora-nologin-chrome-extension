@@ -4,6 +4,7 @@
 - Adds `?share=1` at the end of the Quora's Question URL.
 - Removes Ads.
 - Disables Login Button.
+- Adds a special new Quora icon when viewing an answer.
 
 ## Search Query
 
@@ -15,15 +16,12 @@
 
 ## Installation
 
-1. **[Click here to download](https://github.com/maxhoffmann/quora-nologin-chrome-extension/archive/master.zip)**, unzip the file and save the folder on your computer.
+1. **[Click here to download](https://github.com/aldiduzha/quora-nologin-chrome-extension/archive/master.zip)**, unzip the file and save the folder on your computer.
 2. Drag and drop it in Chrome’s `Settings > Extensions`.
 3. Done!
 
 __Note:__ If you delete the folder with the extension on your computer it will also be removed from Chrome too.
 
-![user colors](usercolors.png)
+## License
 
-<!-- ## License
-
-Licensed under [MIT](LICENSE) by [@aldi_duzha](https://twitter.com/max_hoffmann).
- -->
+Licensed under [MIT](LICENSE) by [aldiduzha](http://aldiduzha.com).
